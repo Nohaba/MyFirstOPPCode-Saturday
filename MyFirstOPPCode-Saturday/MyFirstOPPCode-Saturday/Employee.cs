@@ -18,17 +18,17 @@ namespace MyFirstOPPCode_Saturday
 
         #region Methods
 
-        public abstract int GetValueToPay();
+        public abstract decimal GetValueToPay();
 
         public override string ToString()
         {
-            return $"-----EMPLOYEE----\n\t" +
-                $"{Id} \n\t " +
+            return $"-----EMPLOYEE----\n\t " +
+                $"Id...................{Id} \n\t " +
                 $"First Name:..........{FirstName} \n\t " +
                 $"LastName:............{LastName} \n\t " +
                 $"Birh Day:............{BirthDate} \n\t " +
-                $"Hiring Date:.........{HiringDate} \n\t" +
-                $" Is active?:.........{IsActive}";
+                $"Hiring Date:.........{HiringDate} \n\t " +
+                $"Is active?:..........{IsActive}";
         }
 
         #endregion
